@@ -7,12 +7,13 @@ Firehouse Subs
 Chipotle
 Freebirds
 Torchy's
-Mighty Fine
+Mighty Fine (bring cup)
 Zoe's Kitchen
 Tarka Indian Kitchen
 Coriander
 Fire Bowl Cafe
-Rudy's
+Rudy's (bring cup)
+P. Terry's
 __EOF
 LENGTH=`wc -l lunch-places.txt | cut -d\  -f 1`
 WHICHONE=$(($RANDOM * $LENGTH / 32768 + 1))
